@@ -1,0 +1,8 @@
+{
+  "name": "Base Python Site",
+  "description": "A Python app that will save scraped data into db and serve json of it.",
+  "image": "heroku/python",
+  "repository": "repo/goes/here",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}

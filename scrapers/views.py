@@ -20,7 +20,7 @@ def deadpeoplenews(request):
 
     deadpeoplenews = []
     for headline in page['items']:
-    	if "dies" in headline['title']:
+    	if "dies" in headline['title'] OR "dead" in headline['title']:
     	    deadpeoplenews.append(
     	    	headline['title'] + '.<br>' + 
     	    	headline['description'].split("- ",1)[1] + '<br>' +
